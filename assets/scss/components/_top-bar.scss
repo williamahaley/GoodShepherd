@@ -1,0 +1,51 @@
+.top-bar {
+
+  ul {
+    background-color: #fff;
+  }
+
+  .gs-main-menu{
+    border-top: thin solid $border-color;
+  }
+
+  .menu {
+
+    li.menu-item {
+
+      border-right: none;
+      padding: 35px;
+
+      a{
+        color: $primary-color;
+        display: block;
+        padding: 5px 0;
+        text-transform: uppercase;
+        font-family: $primary-font;
+        font-weight: 400;
+        @include em(18);
+        border-bottom: 1px solid $border-color;
+        transition: .3s ease;
+        display: block;
+        font-weight: 300;
+
+        &:hover{
+          border-bottom-color: $accent-color;
+          border-width: 2px;
+          background-color: #fff;
+        }
+
+      }
+
+      &.active{
+        a{
+          border-bottom-color: $accent-color;
+          border-width: 2px;
+          background-color: #fff;
+        }
+      }
+
+    }
+
+  }
+
+}
