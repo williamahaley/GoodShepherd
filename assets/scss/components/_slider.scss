@@ -1,0 +1,18 @@
+
+
+.GS-slider{
+  &.metaslider{
+    .caption-wrap{
+      opacity: 1;
+      @include breakpoint(large) {
+        background: none;
+        text-align: center;
+        font-size: 2.75em;
+        font-weight: 700;
+        text-transform: uppercase;
+        top: 200px;
+      }
+    }
+  }
+}
+

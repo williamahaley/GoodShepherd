@@ -1,0 +1,15 @@
+.articles{
+  header#featured-hero{
+    margin: 0
+  }
+}
+.article-header{
+  color: $primary-color;
+}
+
+.article-date{
+  color: $primary-color;
+  text-align: center;
+  font-size: 11px;
+  margin-bottom: 20px;
+}

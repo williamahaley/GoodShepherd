@@ -111,3 +111,13 @@
 .nav-next {
 	float:right;
 }
+
+nav.off-canvas{
+  .active{
+    a{
+      background:none;
+      color: $primary-color;
+      font-weight: 700;
+    }
+  }
+}

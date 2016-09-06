@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c91192ca-eb02-4021-b6de-391a2811b38c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/components/_articles.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/components/_section.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/components/_slider.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PUSH_TO_PRODUCTION.sh" afterPath="$PROJECT_DIR$/PUSH_TO_PRODUCTION.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascript/vendor/motion-ui/_fade.scss" afterPath="$PROJECT_DIR$/assets/javascript/vendor/motion-ui/_fade.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascript/vendor/motion-ui/_hinge.scss" afterPath="$PROJECT_DIR$/assets/javascript/vendor/motion-ui/_hinge.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascript/vendor/motion-ui/_slide.scss" afterPath="$PROJECT_DIR$/assets/javascript/vendor/motion-ui/_slide.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascript/vendor/motion-ui/_spin.scss" afterPath="$PROJECT_DIR$/assets/javascript/vendor/motion-ui/_spin.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascript/vendor/motion-ui/_zoom.scss" afterPath="$PROJECT_DIR$/assets/javascript/vendor/motion-ui/_zoom.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/foundation.scss" afterPath="$PROJECT_DIR$/assets/scss/foundation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/global/_settings.scss" afterPath="$PROJECT_DIR$/assets/scss/global/_settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/modules/_footer.scss" afterPath="$PROJECT_DIR$/assets/scss/modules/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/modules/_navigation.scss" afterPath="$PROJECT_DIR$/assets/scss/modules/_navigation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/templates/_front.scss" afterPath="$PROJECT_DIR$/assets/scss/templates/_front.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/templates/_page-full-width.scss" afterPath="$PROJECT_DIR$/assets/scss/templates/_page-full-width.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/foundation.css" afterPath="$PROJECT_DIR$/assets/stylesheets/foundation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/foundation.css.map" afterPath="$PROJECT_DIR$/assets/stylesheets/foundation.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-templates/front.php" afterPath="$PROJECT_DIR$/page-templates/front.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/content-none.php" afterPath="$PROJECT_DIR$/template-parts/content-none.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/content.php" afterPath="$PROJECT_DIR$/template-parts/content.php" />
     </list>
     <ignored path="GoodShepherd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,20 +43,20 @@
     <favorites_list name="GoodShepherd" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.75966185">
+    <splitter split-orientation="horizontal" split-proportion="0.49031478">
       <split-first>
-        <leaf>
-          <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/header.php">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/page.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
-                  <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+                <state relative-caret-position="126">
+                  <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PUSH_TO_PRODUCTION.sh" pinned="false" current-in-tab="false">
+          <file leaf-file-name="PUSH_TO_PRODUCTION.sh" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/PUSH_TO_PRODUCTION.sh">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="126">
@@ -46,21 +66,109 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
+          <file leaf-file-name="front-page.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/front-page.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <state relative-caret-position="378">
+                  <caret line="30" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_settings.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/scss/global/_settings.scss">
+          <file leaf-file-name="post.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../wordpress-new/wordpress/wp-includes/post.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="158">
-                  <caret line="57" column="11" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="11" />
+                <state relative-caret-position="329">
+                  <caret line="1619" column="20" selection-start-line="1619" selection-start-column="9" selection-end-line="1619" selection-end-column="20" />
+                  <folding>
+                    <marker date="1451706862000" expanded="true" signature="55007:55023" ph="Insert into post... " />
+                    <marker date="1451706862000" expanded="true" signature="55033:55049" ph="Insert into page... " />
+                    <marker date="1451706862000" expanded="true" signature="79088:79172" ph="SELECT post_... $" />
+                    <marker date="1451706862000" expanded="true" signature="81108:81259" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="81429:81522" ph="SELECT COUNT... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="87249:87289" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="88695:88763" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="89063:89140" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="89592:89657" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+                    <marker date="1451706862000" expanded="true" signature="89850:89904" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+                    <marker date="1451706862000" expanded="true" signature="94492:94575" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+                    <marker date="1451706862000" expanded="true" signature="96497:96580" ph="UPDATE ${$wp... " />
+                    <marker date="1451706862000" expanded="true" signature="114756:114797" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="125368:125444" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="126495:126630" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="127726:127821" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="138040:138085" ph="SELECT pinge... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="139608:139653" ph="SELECT pinge... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="140223:140269" ph="SELECT to_pi... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="141701:141753" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="143685:143825" ph="SELECT ID, p... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="145308:145406" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="145467:145544" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="157475:157533" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="161652:161692" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="162810:162875" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+                    <marker date="1451706862000" expanded="true" signature="163069:163123" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+                    <marker date="1451706862000" expanded="true" signature="163690:163809" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+                    <marker date="1451706862000" expanded="true" signature="185190:185335" ph="SELECT post_... " />
+                    <marker date="1451706862000" expanded="true" signature="185394:185535" ph="SELECT post_... " />
+                    <marker date="1451706862000" expanded="true" signature="185635:185829" ph="SELECT DATE_... " />
+                    <marker date="1451706862000" expanded="true" signature="196574:196684" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+                    <marker date="1451706862000" expanded="true" signature="198224:198280" ph="SELECT ${$wp... ${$wpdb-&gt;posts}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="general-template.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../wordpress-new/wordpress/wp-includes/general-template.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="302">
+                  <caret line="149" column="9" selection-start-line="149" selection-start-column="9" selection-end-line="149" selection-end-column="9" />
+                  <folding>
+                    <marker date="1451927967000" expanded="true" signature="51203:51385" ph="SELECT YEAR(... " />
+                    <marker date="1451927967000" expanded="true" signature="52277:52412" ph="SELECT YEAR(... " />
+                    <marker date="1451927967000" expanded="true" signature="53177:53421" ph="SELECT YEAR(... " />
+                    <marker date="1451927967000" expanded="true" signature="54389:54627" ph="SELECT DISTI... " />
+                    <marker date="1451927967000" expanded="true" signature="56069:56127" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+                    <marker date="1451927967000" expanded="true" signature="58430:58525" ph="SELECT 1 as ${$wpdb-&gt;posts}" />
+                    <marker date="1451927967000" expanded="true" signature="59763:59977" ph="SELECT MONTH... " />
+                    <marker date="1451927967000" expanded="true" signature="60006:60237" ph="SELECT MONTH... " />
+                    <marker date="1451927967000" expanded="true" signature="60413:60554" ph="..." />
+                    <marker date="1451927967000" expanded="true" signature="60548:60554" ph="..." />
+                    <marker date="1451927967000" expanded="true" signature="60999:61005" ph="..." />
+                    <marker date="1451927967000" expanded="true" signature="61808:61814" ph="..." />
+                    <marker date="1451927967000" expanded="true" signature="61907:62142" ph="SELECT DISTI... ${$wpdb-&gt;posts}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/template-parts/content.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="featured-image.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/template-parts/featured-image.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="108">
+                  <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_slider.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/scss/components/_slider.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -79,8 +187,8 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="_top-bar.scss" pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="_top-bar.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/scss/components/_top-bar.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="360">
@@ -93,7 +201,7 @@
           <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/scss/components/_header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="172">
+                <state relative-caret-position="486">
                   <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
                   <folding>
                     <element signature="e#1476#2828#0" expanded="false" />
@@ -113,6 +221,56 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="_front.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assets/scss/templates/_front.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="72">
+                  <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_settings.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/scss/global/_settings.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/scss/modules/_footer.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="18">
+                  <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="foundation.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/scss/foundation.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="655">
+                  <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_articles.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/scss/components/_articles.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="234">
+                  <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-second>
     </splitter>
@@ -125,18 +283,30 @@
       <list>
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/assets/scss/modules/_navigation.scss" />
         <option value="$PROJECT_DIR$/library/protocol-relative-theme-assets.php" />
-        <option value="$PROJECT_DIR$/assets/scss/foundation.scss" />
         <option value="$PROJECT_DIR$/base/true_church/sass/libs/_mixins.scss" />
         <option value="$PROJECT_DIR$/assets/scss/global/_mixins.scss" />
-        <option value="$PROJECT_DIR$/assets/scss/global/_settings.scss" />
         <option value="$PROJECT_DIR$/base/true_church/sass/libs/_global.scss" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/assets/scss/components/_header.scss" />
         <option value="$PROJECT_DIR$/assets/scss/components/_top-bar.scss" />
-        <option value="$PROJECT_DIR$/PUSH_TO_PRODUCTION.sh" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/PUSH_TO_PRODUCTION.sh" />
+        <option value="$PROJECT_DIR$/assets/scss/modules/_navigation.scss" />
+        <option value="$PROJECT_DIR$/page-templates/front.php" />
+        <option value="$PROJECT_DIR$/template-parts/content-none.php" />
+        <option value="$PROJECT_DIR$/page.php" />
+        <option value="$PROJECT_DIR$/frontpage.php" />
+        <option value="$PROJECT_DIR$/assets/scss/templates/_page-full-width.scss" />
+        <option value="$PROJECT_DIR$/assets/scss/components/_section.scss" />
+        <option value="$PROJECT_DIR$/assets/scss/global/_settings.scss" />
+        <option value="$PROJECT_DIR$/assets/scss/modules/_footer.scss" />
+        <option value="$PROJECT_DIR$/assets/scss/templates/_front.scss" />
+        <option value="$PROJECT_DIR$/template-parts/content.php" />
+        <option value="$PROJECT_DIR$/assets/scss/foundation.scss" />
+        <option value="$PROJECT_DIR$/front-page.php" />
+        <option value="$PROJECT_DIR$/assets/scss/components/_articles.scss" />
+        <option value="$PROJECT_DIR$/assets/scss/components/_slider.scss" />
       </list>
     </option>
   </component>
@@ -219,8 +389,22 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="GoodShepherd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoodShepherd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,6 +419,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,6 +446,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/scss/global" />
       <recent name="$PROJECT_DIR$/assets/scss/components" />
       <recent name="$PROJECT_DIR$/assets/images" />
@@ -334,23 +527,24 @@
       <workItem from="1472646161878" duration="1425000" />
       <workItem from="1472647598420" duration="323000" />
       <workItem from="1472647931269" duration="482000" />
-      <workItem from="1472648423746" duration="9737000" />
+      <workItem from="1472648423746" duration="10050000" />
+      <workItem from="1472670155792" duration="629000" />
+      <workItem from="1473187108176" duration="4855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11967000" />
+    <option name="totallyTimeSpent" value="17764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1080" y="223" width="1920" height="1049" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11632871" sideWeight="0.6809816" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11846318" sideWeight="0.6809816" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.50213444" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.49786553" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -362,6 +556,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1292735" sideWeight="0.49786553" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.3190184" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.49786553" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -382,7 +577,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -394,7 +589,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -410,26 +611,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1016">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -437,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -445,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -453,15 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/modules/_navigation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -469,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -477,7 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -485,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -493,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-594">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -509,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -522,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="598" column="37" selection-start-line="598" selection-start-column="26" selection-end-line="598" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -538,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -546,15 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/foundation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -562,7 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1166">
           <caret line="1141" column="13" selection-start-line="1141" selection-start-column="13" selection-end-line="1141" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -570,15 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/global/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="57" column="11" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,6 +745,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -598,22 +772,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/true_church/sass/layout/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/components/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
+        <state relative-caret-position="486">
           <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding>
             <element signature="e#1476#2828#0" expanded="false" />
             <element signature="e#2840#3080#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/true_church/sass/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -625,10 +799,194 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
+    <entry file="file://$PROJECT_DIR$/assets/scss/modules/_navigation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        <state relative-caret-position="736">
+          <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/global/_wp-overrides.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/templates/_page-full-width.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-templates/front.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/global/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/modules/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/content-none.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/components/_section.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordpress-new/wordpress/wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="149" column="9" selection-start-line="149" selection-start-column="9" selection-end-line="149" selection-end-column="9" />
+          <folding>
+            <marker date="1451927967000" expanded="true" signature="51203:51385" ph="SELECT YEAR(... " />
+            <marker date="1451927967000" expanded="true" signature="52277:52412" ph="SELECT YEAR(... " />
+            <marker date="1451927967000" expanded="true" signature="53177:53421" ph="SELECT YEAR(... " />
+            <marker date="1451927967000" expanded="true" signature="54389:54627" ph="SELECT DISTI... " />
+            <marker date="1451927967000" expanded="true" signature="56069:56127" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1451927967000" expanded="true" signature="58430:58525" ph="SELECT 1 as ${$wpdb-&gt;posts}" />
+            <marker date="1451927967000" expanded="true" signature="59763:59977" ph="SELECT MONTH... " />
+            <marker date="1451927967000" expanded="true" signature="60006:60237" ph="SELECT MONTH... " />
+            <marker date="1451927967000" expanded="true" signature="60413:60554" ph="..." />
+            <marker date="1451927967000" expanded="true" signature="60548:60554" ph="..." />
+            <marker date="1451927967000" expanded="true" signature="60999:61005" ph="..." />
+            <marker date="1451927967000" expanded="true" signature="61808:61814" ph="..." />
+            <marker date="1451927967000" expanded="true" signature="61907:62142" ph="SELECT DISTI... ${$wpdb-&gt;posts}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordpress-new/wordpress/wp-includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="1619" column="20" selection-start-line="1619" selection-start-column="9" selection-end-line="1619" selection-end-column="20" />
+          <folding>
+            <marker date="1451706862000" expanded="true" signature="55007:55023" ph="Insert into post... " />
+            <marker date="1451706862000" expanded="true" signature="55033:55049" ph="Insert into page... " />
+            <marker date="1451706862000" expanded="true" signature="79088:79172" ph="SELECT post_... $" />
+            <marker date="1451706862000" expanded="true" signature="81108:81259" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="81429:81522" ph="SELECT COUNT... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="87249:87289" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="88695:88763" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="89063:89140" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="89592:89657" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1451706862000" expanded="true" signature="89850:89904" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1451706862000" expanded="true" signature="94492:94575" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1451706862000" expanded="true" signature="96497:96580" ph="UPDATE ${$wp... " />
+            <marker date="1451706862000" expanded="true" signature="114756:114797" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="125368:125444" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="126495:126630" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="127726:127821" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="138040:138085" ph="SELECT pinge... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="139608:139653" ph="SELECT pinge... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="140223:140269" ph="SELECT to_pi... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="141701:141753" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="143685:143825" ph="SELECT ID, p... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="145308:145406" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="145467:145544" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="157475:157533" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="161652:161692" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="162810:162875" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1451706862000" expanded="true" signature="163069:163123" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1451706862000" expanded="true" signature="163690:163809" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1451706862000" expanded="true" signature="185190:185335" ph="SELECT post_... " />
+            <marker date="1451706862000" expanded="true" signature="185394:185535" ph="SELECT post_... " />
+            <marker date="1451706862000" expanded="true" signature="185635:185829" ph="SELECT DATE_... " />
+            <marker date="1451706862000" expanded="true" signature="196574:196684" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="198224:198280" ph="SELECT ${$wp... ${$wpdb-&gt;posts}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/foundation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/featured-image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/components/_articles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/templates/_front.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="30" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/components/_slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -637,14 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
