@@ -6840,16 +6840,28 @@ body#tinymce {
 .top-bar ul {
   background-color: #fff; }
 
+.top-bar .dropdown.menu .submenu {
+  background: #FFFFFF;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+  .top-bar .dropdown.menu .submenu li {
+    padding: 10px 20px;
+    float: left; }
+    .top-bar .dropdown.menu .submenu li a {
+      border-bottom: 1px solid #e5e5e5; }
+
 .top-bar .gs-main-menu {
   border-top: thin solid #e5e5e5; }
 
 .top-bar .menu li.menu-item {
   border-right: none;
-  padding: 35px; }
+  padding: 20px 35px 35px; }
   .top-bar .menu li.menu-item a {
     color: #8f7655;
     display: block;
-    padding: 5px 0;
+    padding: 15px 5px 0;
     text-transform: uppercase;
     font-family: "Novecento Sans", "Raleway", "Noto Sans" "Open Sans", sans-serif;
     font-weight: 400;
