@@ -49,8 +49,8 @@
 				</div>
 				<div class="columns centered text-center">
 					<h1 class="site-title">
-					<?php bloginfo( 'name' ); ?>
-						</h1>
+						<?php bloginfo( 'name' ); ?>
+					</h1>
 				</div>
 			</div>
 
@@ -66,5 +66,4 @@
 
 	</header>
 
-	<section class="container">
 		<?php do_action( 'foundationpress_after_header' );
