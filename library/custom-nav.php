@@ -48,8 +48,10 @@ function wpt_register_theme_customizer( $wp_customize ) {
 			)
 		)
 	);
+	// Add options for navigation layout
 
 }
+
 
 add_action( 'customize_register', 'wpt_register_theme_customizer' );
 
@@ -64,3 +66,59 @@ function mobile_nav_class( $classes ) {
 	return $classes;
 }
 endif;
+
+function wpt_register_theme_customizer_alt( $wp_customize ) {
+
+    $wp_customize->add_section( 'custom_footer_text', array(
+        'title'          => __( 'Footer Text' ),
+        'priority'       => 1100,
+        'description'    => __( '' ),
+    ) );
+
+    $wp_customize->add_setting( 'footer_text_1', array(
+        'default'    => '© Copyright 2016, Good Shepherd Episcopal Church. All rights reserved.',
+        'type'       => 'option',
+        'capability' => 'manage_options',
+    ) );
+
+    $wp_customize->add_control( 'footer_text_1', array(
+        'label'      => __( 'Copyright line' ),
+        'section'    => 'custom_footer_text',
+    ) );
+
+    $wp_customize->add_setting( 'footer_text_address', array(
+        'default'    => '231 N. Church St, Rocky Mount, NC 27804',
+        'type'       => 'option',
+        'capability' => 'manage_options',
+    ) );
+
+    $wp_customize->add_control( 'footer_text_address', array(
+        'label'      => __( 'Address' ),
+        'section'    => 'custom_footer_text',
+    ) );
+
+     $wp_customize->add_setting( 'footer_text_telephone', array(
+         'default'    => '252.442.1134',
+         'type'       => 'option',
+         'capability' => 'manage_options',
+     ) );
+
+     $wp_customize->add_control( 'footer_text_telephone', array(
+         'label'      => __( 'Footer Text Telephone Number' ),
+         'section'    => 'custom_footer_text',
+     ) );
+
+     $wp_customize->add_setting( 'footer_text_disclosure', array(
+         'default'    => 'The Church of the Good Shepherd and the Good Shepherd Day School are equal opportunity employers. The USDA is an equal opportunity provider and employer.',
+         'type'       => 'option',
+         'capability' => 'manage_options',
+     ) );
+
+     $wp_customize->add_control( 'footer_text_disclosure', array(
+         'label'      => __( 'Footer Text Line Disclosure' ),
+         'section'    => 'custom_footer_text',
+     ) );
+
+}
+
+add_action( 'customize_register', 'wpt_register_theme_customizer_alt' );
