@@ -7275,7 +7275,7 @@ h1.site-title {
           float: right; } }
 
 .title-header {
-  background: url("/wp-content/themes/GoodShepherd/assets/images/Banner-5.png") no-repeat center center;
+  background: url("/wp-content/themes/goodShepherd/assets/images/Banner-5.png") no-repeat center center;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
   height: 125px; }
@@ -7348,5 +7348,40 @@ h1.site-title {
     @media screen and (min-width: 40em) {
         #single-post .main-content:last-child:not(:first-child) {
           float: right; } }
+
+.nf-form-fields-required {
+  color: #8f7655; }
+
+.nf-form-content {
+  max-width: 40rem;
+  margin: auto; }
+
+.nf-field-container .nf-field-label label {
+  color: #8f7655; }
+
+.nf-field-element input[type=button] {
+  display: inline-block;
+  background: #e2caae;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e2caae), to(#c39f70));
+  background: -webkit-linear-gradient(#e2caae, #c39f70);
+  background: linear-gradient(#e2caae, #c39f70);
+  border-bottom: 1px solid #a68861;
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: #715b3e;
+  text-transform: uppercase;
+  font-family: "Novecento Sans", "Raleway", "Noto Sans" "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: normal; }
+  .nf-field-element input[type=button].secondary {
+    background: #e3dfda;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e3dfda), to(#d0cbc4));
+    background: -webkit-linear-gradient(#e3dfda, #d0cbc4);
+    background: linear-gradient(#e3dfda, #d0cbc4);
+    border-bottom: 1px solid #b1aea8;
+    color: #7c7975; }
 
 /*# sourceMappingURL=foundation.css.map */
