@@ -35,8 +35,6 @@ function foundationpress_theme_support() {
 	// Add post formats support: http://codex.wordpress.org/Post_Formats
 	add_theme_support( 'post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat') );
 
-	// Declare WooCommerce support per http://docs.woothemes.com/document/third-party-custom-theme-compatibility/
-	add_theme_support( 'woocommerce' );
 
 	// Add foundation.css as editor style https://codex.wordpress.org/Editor_Style
 	add_editor_style( 'assets/stylesheets/foundation.css' );
