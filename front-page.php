@@ -16,6 +16,7 @@
 
     $posts = get_posts(array( 'category' => get_cat_ID("recent-news"), 'numberposts' => 3 ));
 ?>
+    <section class="container">
 
      <section aria-label="Recent News" class="articles recent-news">
         <div class="row">

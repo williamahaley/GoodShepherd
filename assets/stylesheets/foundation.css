@@ -7274,12 +7274,26 @@ h1.site-title {
         #page-sidebar-left .sidebar:last-child:not(:first-child) {
           float: right; } }
 
+.title-header {
+  background: url("/wp-content/themes/goodShepherd/assets/images/Banner-5.png") no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  height: 125px; }
+  .title-header header {
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.5rem; }
+    .title-header header h1 {
+      color: #fff;
+      text-transform: uppercase; }
+
 #page-full-width {
   max-width: 75rem;
   margin-left: auto;
   margin-right: auto;
   *zoom: 1;
-  margin-top: 3rem; }
+  margin-top: 1rem; }
   #page-full-width:after {
     content: " ";
     clear: both;
