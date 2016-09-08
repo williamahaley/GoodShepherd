@@ -12,7 +12,7 @@
 
      get_header();
 
-    echo do_shortcode("[metaslider id=14]");
+    echo do_shortcode("[metaslider id=18]");
 
     $posts = get_posts(array( 'category' => get_cat_ID("recent-news"), 'numberposts' => 3 ));
 ?>
