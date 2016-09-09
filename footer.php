@@ -8,6 +8,13 @@
  * @since FoundationPress 1.0.0
  */
 
+
+$map 		= get_theme_mod('footer_text_cal_link', '/resources/calendar/');
+$calendar 	= get_theme_mod('footer_text_map_link', 'https://www.google.com/maps/place/231+N+Church+St,+Rocky+Mount,+NC+27804/@35.9458229,-77.7978464,17z');
+$dio 		= get_theme_mod('footer_text_dio_link', 'http://www.dionc.org/');
+$facebook	= get_theme_mod('footer_text_dio_link', 'https://www.facebook.com/Church-of-the-Good-Shepherd-Episcopal-Rocky-Mount-NC-246208660494/');
+$email		= get_theme_mod('footer_text_email_link', 'https://visitor.r20.constantcontact.com/manage/optin?v=0013sqtWUZpMnGEoYXgaI4TjrWS8kwiVGsJyaaDpJuVzJUAGhvXxkn-FhoYVYjEZJa2iz0H_ypgScIPhr3vqO-31z9D-EOP9vDFKAeRqsEIJGfsonI2Mwwv8G4VV0vNvw5DDR3z3XnNDfXYR6_TspcweAIvnLS-zyryAOZKBN925LE%3D');
+
 ?>
 
 		</section>
@@ -17,13 +24,19 @@
 					<div class="columns large-4 medium-4 small-12 text-center">
 						<div class="row">
 							<div class="columns small-4">
-								<i class="fa fa-calendar-o" aria-hidden="true"></i>
+								<a href="<?php echo $calendar ?>">
+									<i class="fa fa-calendar-o" aria-hidden="true"></i>
+								</a>
 							</div>
 							<div class="columns small-4">
-								<i class="fa fa-map" aria-hidden="true"></i>
+								<a href="<?php echo $map ?>" target="_blank">
+									<i class="fa fa-map" aria-hidden="true"></i>
+								</a>
 							</div>
 							<div class="columns small-4">
-								<img src="<?php echo get_template_directory_uri('/') ?>/assets/images/Episcopal-logo.png" />
+								<a href="<?php echo $dio ?>" target="_blank">
+									<img src="<?php echo get_template_directory_uri('/') ?>/assets/images/Episcopal-logo.png" />
+								</a>
 							</div>
 						</div>
 					</div>
@@ -32,13 +45,17 @@
 					<div class="columns large-4 medium-4 small-12 text-center">
 						<div class="row">
 							<div class="columns small-4">
-								<i class="fa fa-facebook-square" aria-hidden="true"></i>
+								<a href="<?php echo $facebook ?>" target="_blank">
+									<i class="fa fa-facebook-square" aria-hidden="true"></i>
+								</a>
 							</div>
 							<div class="columns small-4">
 								<i class="fa fa-twitter" aria-hidden="true"></i>
 							</div>
 							<div class="columns small-4">
-								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<a href="<?php echo $email ?>" target="_blank">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</a>
 							</div>
 						</div>
 					</div>
