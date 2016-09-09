@@ -7274,6 +7274,9 @@ h1.site-title {
         #page-sidebar-left .sidebar:last-child:not(:first-child) {
           float: right; } }
 
+table thead, table tfoot {
+  color: #8f7655; }
+
 .title-header {
   background: url("/wp-content/themes/GoodShepherd/assets/images/Banner-5.png") no-repeat center center;
   -webkit-background-size: 100% 100%;
