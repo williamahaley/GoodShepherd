@@ -119,6 +119,72 @@ function wpt_register_theme_customizer_alt( $wp_customize ) {
          'section'    => 'custom_footer_text',
      ) );
 
+     $wp_customize->add_setting( 'footer_text_cal_link', array(
+         'default'    => '/resources/calendar/',
+         'type'       => 'option',
+         'capability' => 'manage_options',
+     ) );
+
+     $wp_customize->add_control( 'footer_text_cal_link', array(
+         'label'      => __( 'Footer Text Calendar Link' ),
+         'section'    => 'custom_footer_text',
+     ) );
+
+     $wp_customize->add_setting( 'footer_text_map_link', array(
+         'default'    => 'https://www.google.com/maps/place/231+N+Church+St,+Rocky+Mount,+NC+27804/@35.9458229,-77.7978464,17z',
+         'type'       => 'option',
+         'capability' => 'manage_options',
+     ) );
+
+     $wp_customize->add_control( 'footer_text_map_link', array(
+         'label'      => __( 'Footer Text Map Link' ),
+         'section'    => 'custom_footer_text',
+     ) );
+
+     $wp_customize->add_setting( 'footer_text_dio_link', array(
+         'default'    => 'http://www.dionc.org/',
+         'type'       => 'option',
+         'capability' => 'manage_options',
+     ) );
+
+     $wp_customize->add_control( 'footer_text_dio_link', array(
+         'label'      => __( 'Footer Text Diocese Link' ),
+         'section'    => 'custom_footer_text',
+     ) );
+
+     $wp_customize->add_setting( 'footer_text_dio_link', array(
+         'default'    => 'http://www.dionc.org/',
+         'type'       => 'option',
+         'capability' => 'manage_options',
+     ) );
+
+     $wp_customize->add_control( 'footer_text_dio_link', array(
+         'label'      => __( 'Footer Text Diocese Link' ),
+         'section'    => 'custom_footer_text',
+     ) );
+
+     $wp_customize->add_setting( 'footer_text_facebook_link', array(
+         'default'    => 'https://www.facebook.com/Church-of-the-Good-Shepherd-Episcopal-Rocky-Mount-NC-246208660494/',
+         'type'       => 'option',
+         'capability' => 'manage_options',
+     ) );
+
+     $wp_customize->add_control( 'footer_text_dio_link', array(
+         'label'      => __( 'Footer Text Facebook Link' ),
+         'section'    => 'custom_footer_text',
+     ) );
+
+    $wp_customize->add_setting( 'footer_text_email_link', array(
+         'default'    => 'https://visitor.r20.constantcontact.com/manage/optin?v=0013sqtWUZpMnGEoYXgaI4TjrWS8kwiVGsJyaaDpJuVzJUAGhvXxkn-FhoYVYjEZJa2iz0H_ypgScIPhr3vqO-31z9D-EOP9vDFKAeRqsEIJGfsonI2Mwwv8G4VV0vNvw5DDR3z3XnNDfXYR6_TspcweAIvnLS-zyryAOZKBN925LE%3D',
+         'type'       => 'option',
+         'capability' => 'manage_options',
+     ) );
+
+     $wp_customize->add_control( 'footer_text_email_link', array(
+         'label'      => __( 'Footer Text Email Sign Up Link' ),
+         'section'    => 'custom_footer_text',
+     ) );
+
 }
 
 add_action( 'customize_register', 'wpt_register_theme_customizer_alt' );

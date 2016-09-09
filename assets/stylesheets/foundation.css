@@ -6769,6 +6769,12 @@ nav.off-canvas .active a {
       list-style-type: none;
       margin: 0;
       padding: 0; }
+    #footer-container #footer .fa {
+      color: #fff;
+      font-size: 36px; }
+    #footer-container #footer .sub-footer {
+      margin-top: 15px;
+      font-size: 11px; }
 
 .sidebar {
   width: 100%;
