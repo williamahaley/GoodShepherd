@@ -9,8 +9,8 @@
  */
 
 
-$map 		= get_theme_mod('footer_text_cal_link', '/resources/calendar/');
-$calendar 	= get_theme_mod('footer_text_map_link', 'https://www.google.com/maps/place/231+N+Church+St,+Rocky+Mount,+NC+27804/@35.9458229,-77.7978464,17z');
+$calendar	= get_theme_mod('footer_text_cal_link', '/resources/calendar/');
+$map	 	= get_theme_mod('footer_text_map_link', 'https://www.google.com/maps/place/231+N+Church+St,+Rocky+Mount,+NC+27804/@35.9458229,-77.7978464,17z');
 $dio 		= get_theme_mod('footer_text_dio_link', 'http://www.dionc.org/');
 $facebook	= get_theme_mod('footer_text_dio_link', 'https://www.facebook.com/Church-of-the-Good-Shepherd-Episcopal-Rocky-Mount-NC-246208660494/');
 $email		= get_theme_mod('footer_text_email_link', 'https://visitor.r20.constantcontact.com/manage/optin?v=0013sqtWUZpMnGEoYXgaI4TjrWS8kwiVGsJyaaDpJuVzJUAGhvXxkn-FhoYVYjEZJa2iz0H_ypgScIPhr3vqO-31z9D-EOP9vDFKAeRqsEIJGfsonI2Mwwv8G4VV0vNvw5DDR3z3XnNDfXYR6_TspcweAIvnLS-zyryAOZKBN925LE%3D');
