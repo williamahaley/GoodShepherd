@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c91192ca-eb02-4021-b6de-391a2811b38c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascript/vendor/motion-ui/README.md" afterPath="$PROJECT_DIR$/assets/javascript/vendor/motion-ui/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/custom-post-types.php" afterPath="$PROJECT_DIR$/library/custom-post-types.php" />
     </list>
@@ -74,8 +73,8 @@
           <file leaf-file-name="custom-post-types.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/library/custom-post-types.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="680">
-                  <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+                <state relative-caret-position="408">
+                  <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
                   <folding>
                     <element signature="e#6#87#0#PHP" expanded="true" />
                   </folding>
@@ -350,12 +349,12 @@
       <workItem from="1474243663288" duration="654000" />
       <workItem from="1474246412781" duration="2957000" />
       <workItem from="1474290453779" duration="10000" />
-      <workItem from="1474332130520" duration="1868000" />
+      <workItem from="1474332130520" duration="1949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48791000" />
+    <option name="totallyTimeSpent" value="48872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="3224" height="1772" extended-state="6" />
@@ -740,8 +739,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/library/custom-post-types.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="408">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
           </folding>

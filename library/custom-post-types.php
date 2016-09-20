@@ -10,7 +10,7 @@ if ( ! function_exists('goodshepherd_post_type') ){
 
     function goodshepherd_post_type(){
 
-        register_post_type( 'acme_product',
+        register_post_type( 'staff',
             array(
                 'labels' => array(
                     'name' => __( 'Staff' ),
