@@ -75,16 +75,6 @@ function wpt_register_theme_customizer_alt( $wp_customize ) {
         'description'    => __( '' ),
     ) );
 
-    $wp_customize->add_setting( 'footer_text_1', array(
-        'default'    => '© Copyright 2016, Good Shepherd Episcopal Church. All rights reserved.',
-        'type'       => 'option',
-        'capability' => 'manage_options',
-    ) );
-
-    $wp_customize->add_control( 'footer_text_1', array(
-        'label'      => __( 'Copyright line' ),
-        'section'    => 'custom_footer_text',
-    ) );
 
     $wp_customize->add_setting( 'footer_text_address', array(
         'default'    => '231 N. Church St, Rocky Mount, NC 27804',
@@ -184,6 +174,151 @@ function wpt_register_theme_customizer_alt( $wp_customize ) {
          'label'      => __( 'Footer Text Email Sign Up Link' ),
          'section'    => 'custom_footer_text',
      ) );
+
+    $wp_customize->add_section( 'custom_front_page_links', array(
+        'title'          => __( 'Front Page Links' ),
+        'priority'       => 1050,
+        'description'    => __( '' ),
+    ) );
+
+/* Link 1 */
+    $wp_customize->add_setting( 'custom_fp_text_1', array(
+        'default'    => 'Upcoming Events',
+        'type'       => 'option',
+        'capability' => 'manage_options',
+    ) );
+
+    $wp_customize->add_control( 'custom_fp_text_1', array(
+        'label'      => __( 'Custom Link Text 1' ),
+        'section'    => 'custom_front_page_links',
+    ) );
+
+    $wp_customize->add_setting( 'custom_fp_link_1', array(
+        'default'    => '/calendar',
+        'type'       => 'option',
+        'capability' => 'manage_options',
+    ) );
+
+    $wp_customize->add_control( 'custom_fp_link_1', array(
+        'label'      => __( 'Custom Link 1' ),
+        'section'    => 'custom_front_page_links',
+    ) );
+
+    $wp_customize->add_setting( 'custom_fp_icon_1', array(
+        'default'    => 'fa-calendar',
+        'type'       => 'option',
+        'capability' => 'manage_options',
+    ) );
+
+    $wp_customize->add_control( 'custom_fp_icon_1', array(
+        'label'      => __( 'Custom Link Icon 1' ),
+        'section'    => 'custom_front_page_links',
+    ) );
+
+
+/* Link 2 */
+    $wp_customize->add_setting( 'custom_fp_text_2', array(
+        'default'    => 'LECTIONARY READINGS',
+        'type'       => 'option',
+        'capability' => 'manage_options',
+    ) );
+
+    $wp_customize->add_control( 'custom_fp_text_2', array(
+        'label'      => __( 'Custom Link Text 2' ),
+        'section'    => 'custom_front_page_links',
+    ) );
+
+    $wp_customize->add_setting( 'custom_fp_link_2', array(
+        'default'    => '#',
+        'type'       => 'option',
+        'capability' => 'manage_options',
+    ) );
+
+    $wp_customize->add_control( 'custom_fp_link_2', array(
+        'label'      => __( 'Custom Link 2' ),
+        'section'    => 'custom_front_page_links',
+    ) );
+
+    $wp_customize->add_setting( 'custom_fp_icon_2', array(
+        'default'    => 'fa-book',
+        'type'       => 'option',
+        'capability' => 'manage_options',
+    ) );
+
+    $wp_customize->add_control( 'custom_fp_icon_2', array(
+        'label'      => __( 'Custom Link Icon 2' ),
+        'section'    => 'custom_front_page_links',
+    ) );
+
+/* Link 3 */
+    $wp_customize->add_setting( 'custom_fp_text_3', array(
+        'default'    => 'Online Donations',
+        'type'       => 'option',
+        'capability' => 'manage_options',
+    ) );
+
+    $wp_customize->add_control( 'custom_fp_text_3', array(
+        'label'      => __( 'Custom Link Text 3' ),
+        'section'    => 'custom_front_page_links',
+    ) );
+
+    $wp_customize->add_setting( 'custom_fp_link_3', array(
+        'default'    => '#',
+        'type'       => 'option',
+        'capability' => 'manage_options',
+    ) );
+
+    $wp_customize->add_control( 'custom_fp_link_3', array(
+        'label'      => __( 'Custom Link 3' ),
+        'section'    => 'custom_front_page_links',
+    ) );
+
+    $wp_customize->add_setting( 'custom_fp_icon_3', array(
+        'default'    => 'fa-heart',
+        'type'       => 'option',
+        'capability' => 'manage_options',
+    ) );
+
+    $wp_customize->add_control( 'custom_fp_icon_3', array(
+        'label'      => __( 'Custom Link Icon 3' ),
+        'section'    => 'custom_front_page_links',
+    ) );
+
+
+/* Link 4 */
+    $wp_customize->add_setting( 'custom_fp_text_4', array(
+        'default'    => 'Annual Report 2014',
+        'type'       => 'option',
+        'capability' => 'manage_options',
+    ) );
+
+    $wp_customize->add_control( 'custom_fp_text_4', array(
+        'label'      => __( 'Custom Link Text 4' ),
+        'section'    => 'custom_front_page_links',
+    ) );
+
+    $wp_customize->add_setting( 'custom_fp_link_4', array(
+        'default'    => '#',
+        'type'       => 'option',
+        'capability' => 'manage_options',
+    ) );
+
+    $wp_customize->add_control( 'custom_fp_link_4', array(
+        'label'      => __( 'Custom Link 4' ),
+        'section'    => 'custom_front_page_links',
+    ) );
+
+    $wp_customize->add_setting( 'custom_fp_icon_4', array(
+        'default'    => 'fa-file-text-o',
+        'type'       => 'option',
+        'capability' => 'manage_options',
+    ) );
+
+    $wp_customize->add_control( 'custom_fp_icon_4', array(
+        'label'      => __( 'Custom Link Icon 4' ),
+        'section'    => 'custom_front_page_links',
+    ) );
+
 
 }
 
