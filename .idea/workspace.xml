@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c91192ca-eb02-4021-b6de-391a2811b38c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PULL_FROM_PRODUCTION.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/GoodShepherd.iml" afterPath="$PROJECT_DIR$/.idea/GoodShepherd.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascript/vendor/motion-ui/README.md" afterPath="$PROJECT_DIR$/assets/javascript/vendor/motion-ui/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/custom-post-types.php" afterPath="$PROJECT_DIR$/library/custom-post-types.php" />
     </list>
     <ignored path="GoodShepherd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,67 +28,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-          <file leaf-file-name="_front.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/scss/templates/_front.scss">
+          <file leaf-file-name="PUSH_TO_PRODUCTION.sh" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/PUSH_TO_PRODUCTION.sh">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="714">
-                  <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+                <state relative-caret-position="238">
+                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="front-page.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/front-page.php">
+          <file leaf-file-name="PULL_FROM_PRODUCTION.sh" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PULL_FROM_PRODUCTION.sh">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1666">
-                  <caret line="58" column="41" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="41" />
-                  <folding>
-                    <marker date="1474248771936" expanded="true" signature="2865:2896" ph="..." />
-                    <marker date="1474248771936" expanded="true" signature="3394:3433" ph="..." />
-                    <marker date="1474248771936" expanded="true" signature="3923:3962" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="theme-support.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/library/theme-support.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1088">
-                  <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="custom-nav.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/library/custom-nav.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="816">
-                  <caret line="277" column="33" selection-start-line="277" selection-start-column="33" selection-end-line="277" selection-end-column="33" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="custom-post-types.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/library/custom-post-types.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-                  <folding>
-                    <element signature="e#6#87#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/functions.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1202">
-                  <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+                <state relative-caret-position="68">
+                  <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -95,26 +51,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-          <file leaf-file-name="front-page.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/front-page.php">
+        <leaf>
+          <file leaf-file-name="PULL_FROM_PRODUCTION.sh" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/PULL_FROM_PRODUCTION.sh">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="646">
-                  <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-                  <folding>
-                    <marker date="1474248771936" expanded="true" signature="2865:2896" ph="..." />
-                    <marker date="1474248771936" expanded="true" signature="3394:3433" ph="..." />
-                    <marker date="1474248771936" expanded="true" signature="3923:3962" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/footer.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="12" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                <state relative-caret-position="102">
+                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -163,6 +105,7 @@
         <option value="$PROJECT_DIR$/front-page.php" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/library/custom-post-types.php" />
+        <option value="$PROJECT_DIR$/PULL_FROM_PRODUCTION.sh" />
       </list>
     </option>
   </component>
@@ -180,7 +123,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
-      <path value="$PROJECT_DIR$/../wordpress-new/wordpress" />
+      <path value="C:\Users\Will\Google Drive\projects\wordpress-scotch" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -234,20 +177,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GoodShepherd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GoodShepherd" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -256,7 +185,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wordpress-scotch/Vagrantfile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wordpress-scotch" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="javascript.nodejs.core.library.configured.version" value="4.5.0" />
@@ -349,12 +278,12 @@
       <workItem from="1474243663288" duration="654000" />
       <workItem from="1474246412781" duration="2957000" />
       <workItem from="1474290453779" duration="10000" />
-      <workItem from="1474332130520" duration="1949000" />
+      <workItem from="1474332130520" duration="2976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48872000" />
+    <option name="totallyTimeSpent" value="49899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="3224" height="1772" extended-state="6" />
@@ -403,20 +332,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/true_church/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base/true_church/sass/libs/bootstrap-grid/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -664,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PUSH_TO_PRODUCTION.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base/true_church/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -701,14 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/library/custom-nav.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -719,8 +619,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="58" column="41" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="41" />
+        <state relative-caret-position="646">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding>
             <marker date="1474248771936" expanded="true" signature="2865:2896" ph="..." />
             <marker date="1474248771936" expanded="true" signature="3394:3433" ph="..." />
@@ -739,11 +639,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/library/custom-post-types.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="816">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordpress-scotch/public/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PULL_FROM_PRODUCTION.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PUSH_TO_PRODUCTION.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
