@@ -1,0 +1,59 @@
+.seremon-list{
+  list-style: none;
+  margin-bottom: 30px;
+
+  li{
+    padding: 10px 0 10px 80px;
+    position: relative;
+    border-bottom: 1px solid $border-color;
+    min-height: 70px;
+
+    &:first-child{
+      border-top: none;
+    }
+
+    h3{
+      color: $primary-color;
+    }
+
+    h4{
+      text-transform: uppercase;
+      font-size: 1.15rem;
+    }
+
+  }
+  img{
+    position: absolute;
+    left:0;
+    top: 10px;
+  }
+  .seremon-title{
+    margin-bottom: 10px;
+    @include em(14);
+
+  }
+  .seremon-meta{
+    @include em(12);
+    color: $muted-color;
+    font-family: $primary-font;
+    text-transform: lowercase;
+    .pastor{margin-bottom: 5px;}
+    .fa{
+      width: 20px;
+    }
+  }
+
+  &.large{
+    li{
+      padding-left:140px;
+      min-height: 150px;
+
+    }
+    .seremon-meta{
+      .pastor,.date{
+        display: inline-block;
+        margin-right: 20px;
+      }
+    }
+  }
+}
