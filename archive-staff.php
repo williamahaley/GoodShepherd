@@ -16,6 +16,11 @@
  */
 
 get_header(); ?>
+	<section class="title-header">
+		<header>
+			<h1 class="entry-title">Staff</h1>
+		</header>
+	</section>
 
 <div id="page-full-width">
 	<article class="main-content">

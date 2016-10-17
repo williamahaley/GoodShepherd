@@ -18,8 +18,10 @@ if ( ! function_exists('goodshepherd_post_type') ){
                 ),
                 'public' => true,
                 'has_archive' => true,
-                'capability_tye' => 'page',
+                'hierarchical' => 'true',
+                'supports' => array(  'page-attributes' => 'true' ),
                 'show_in_nav_menus' => true,
+                'capability_type'    => 'post',
             )
         );
 
