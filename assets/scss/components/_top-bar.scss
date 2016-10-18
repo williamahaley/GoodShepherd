@@ -32,6 +32,9 @@
       border-right: none;
       padding: 20px 35px 35px;
 
+      @media screen and (max-width:1200px){  padding: 20px 15px 35px;  }
+      @media screen and (max-width:1000px){  padding: 20px 20px 35px;  margin: 0 7px; }
+
       a{
         color: $primary-color;
         display: block;
@@ -67,3 +70,4 @@
   }
 
 }
+
