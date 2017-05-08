@@ -19,12 +19,15 @@
 @import "global/mixins"; // Override the default WordPress styling for some elements
 
 
+
 // Third-party libraries
-@import 'font-awesome';
-@import 'motion-ui';
+@import '../../assets/components/font-awesome/scss/font-awesome';
+@import '../../assets/components/motion-ui/src/motion-ui';
+
 
 // Foundation global styles
 @include foundation-global-styles;
+
 
 // Individual foundation components
 @include foundation-grid;

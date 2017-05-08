@@ -41,11 +41,12 @@
 			</div>
 		</div>
 
-		<nav id="site-navigation" class="main-navigation top-bar hide-for-small-only" role="navigation">
 
-			<div class="row">
+			<div class="row hide-for-small-only">
 				<div class="columns text-center">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 					<img src="<?php echo get_template_directory_uri('/') ?>/assets/images/seal_sm.png" />
+				</a>
 				</div>
 				<div class="columns centered text-center">
 					<h1 class="site-title">
@@ -54,15 +55,15 @@
 				</div>
 			</div>
 
+		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
 			<div class="row gs-main-menu">
 				<?php foundationpress_top_bar_r(); ?>
-
-				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'topbar' ) : ?>
-					<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
-				<?php endif; ?>
+				<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
 			</div>
-
 		</nav>
+		<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'topbar' ) : ?>
+		<?php endif; ?>
+
 
 	</header>
 
