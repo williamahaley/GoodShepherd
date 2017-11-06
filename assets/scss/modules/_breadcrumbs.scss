@@ -1,0 +1,12 @@
+
+.breadcrumbs{
+  a{
+    color: #fff;
+  }
+
+  @include breakpoint(small){
+    display: none;
+  }
+  
+    display: inline;
+}
