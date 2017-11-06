@@ -6,8 +6,25 @@ get_header(); ?>
 
 <?php do_action( 'foundationpress_before_content' ); ?>
 <?php while ( have_posts() ) : the_post(); ?>
+
+<!-- 
+<?php
+ 	$parents = get_ancestors(get_the_ID(), 'page' );
+	$parents = array_reverse( $parents ); 
+?>
+
+-->
     <section class="title-header">
         <header>
+	   <?php if ( count($parents) > 0 ): ?>
+		<nav aria-label="Breadcrumb Menu" role="navigation">
+			<ul class="breadcrumbs">
+				<?php foreach ( $parents as $parent ): ?>
+					<li><a href="<?php echo get_page_link($parent); ?>"><?php echo get_the_title($parent); ?></a></li>
+				<?php endforeach; ?>
+			</ul>
+		</nav>
+	   <?php endif; ?>
             <h1 class="entry-title"><?php the_title(); ?></h1>
         </header>
     </section>

@@ -25,7 +25,7 @@ if ( ! function_exists('goodshepherd_post_type') ){
             )
         );
 
-    }
+   }
 
 }
 

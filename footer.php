@@ -50,7 +50,9 @@ $email		= get_theme_mod('footer_text_email_link', 'https://visitor.r20.constantc
 								</a>
 							</div>
 							<div class="columns small-4">
-								<i class="fa fa-twitter" aria-hidden="true"></i>
+								<a href="/gift">
+									<i class="fa fa-gift" aria-hidden="true"></i>
+								</a>
 							</div>
 							<div class="columns small-4">
 								<a href="<?php echo $email ?>" target="_blank">
@@ -64,7 +66,9 @@ $email		= get_theme_mod('footer_text_email_link', 'https://visitor.r20.constantc
 					<div class="columns large-4 medium-4 small-12 text-center">
 						<?php echo get_theme_mod('footer_text_address', '231 N. Church St, Rocky Mount, NC 27804'); ?>
 						<br/>
+						<a href="tel:2524421134" style="color:black">
 						<?php echo get_theme_mod('footer_text_telephone', '252.442.1134'); ?>
+						</a>
 					</div>
 					<div class="columns large-4 medium-4 small-12 text-center">
 						<?php echo get_theme_mod('footer_text_1', '© Copyright 2016, Good Shepherd Episcopal Church. All rights reserved.'); ?>

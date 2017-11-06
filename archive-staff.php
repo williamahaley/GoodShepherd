@@ -14,7 +14,6 @@
  * @package FoundationPress
  * @since FoundationPress 1.0.0
  */
-
 get_header(); ?>
 	<section class="title-header">
 		<header>
@@ -30,7 +29,12 @@ get_header(); ?>
 		<?php /* Start the Loop */ ?>
 		<ul class="seremon-list large">
 		<?php while ( have_posts() ) : the_post(); ?>
-			<?php get_template_part( 'template-parts/content', 'staff' ); ?>
+			<?php 
+				$fields = get_fields();
+				if ( strtolower($fields['staff_type']) === strtolower($_GET['type']) ){
+					get_template_part( 'template-parts/content', 'staff' ); 
+				}
+			?>
 		<?php endwhile; ?>
 		</ul>
 		<?php else : ?>

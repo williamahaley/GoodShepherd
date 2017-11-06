@@ -41,7 +41,7 @@ if ( ! function_exists( 'foundationpress_mobile_nav' ) ) {
 		wp_nav_menu( array(
 			'container'      => false,                         // Remove nav container
 			'menu'           => __( 'mobile-nav', 'foundationpress' ),
-			'menu_class'     => 'vertical menu',
+			'menu_class'     => 'vertical menu show-for-small-only mobile-menu',
 			'theme_location' => 'mobile-nav',
 			'items_wrap'     => '<ul id="%1$s" class="%2$s" data-accordion-menu>%3$s</ul>',
 			'fallback_cb'    => false,

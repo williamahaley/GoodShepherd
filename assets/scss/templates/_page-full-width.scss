@@ -15,16 +15,33 @@ table thead, table tfoot{
     margin-left: auto;
     margin-right: auto;
     padding-top: 1.5rem;
+    @include breakpoint(small){
+      padding: 1.5rem 20px 0;
+    }
     h1 {
+
       color: #fff;
       text-transform: uppercase;
-    }
+
+      @include breakpoint(medium){
+        font-size: 2rem;
+      }
+      @include breakpoint(large){
+         font-size: 3rem;
+      }
+   }
   }
 }
 
 #page-full-width {
   @include grid-row();
   margin-top: 1rem;
+  @include breakpoint(small){
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  padding-left: 2rem;
+  padding-right: 2rem;
 
   header{
 

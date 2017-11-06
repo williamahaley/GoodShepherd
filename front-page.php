@@ -15,7 +15,11 @@
     echo do_shortcode("[metaslider id=14]");
     echo do_shortcode("[metaslider id=18]");
 
-    $posts = get_posts(array( 'category' => get_cat_ID("recent-news"), 'numberposts' => 2 ));
+    $all_posts = get_posts(array( 'category' => 7 ));
+    shuffle($all_posts);
+    $posts = array();
+    $posts[] = $all_posts[0];
+    $posts[] = $all_posts[1];
 ?>
     <section class="container">
 
@@ -39,16 +43,16 @@
              $text_1	= get_theme_mod('custom_fp_text_1', 'Upcoming Events');
              $icon_1	= get_theme_mod('custom_fp_icon_1', 'fa-calendar');
 
-             $link_2	= get_theme_mod('custom_fp_link_2', '#');
+             $link_2	= get_theme_mod('custom_fp_link_2', '/lectionary-readings');
              $text_2	= get_theme_mod('custom_fp_text_2', 'LECTIONARY READINGS');
              $icon_2	= get_theme_mod('custom_fp_icon_2', 'fa-book');
 
-             $link_3	= get_theme_mod('custom_fp_link_3', '#');
+             $link_3	= get_theme_mod('custom_fp_link_3', '/gift');
              $text_3	= get_theme_mod('custom_fp_text_3', 'Online Donations');
              $icon_3	= get_theme_mod('custom_fp_icon_3', 'fa-heart');
 
-             $link_4	= get_theme_mod('custom_fp_link_4', '#');
-             $text_4	= get_theme_mod('custom_fp_text_4', 'Annual Report 2015');
+             $link_4	= get_theme_mod('custom_fp_link_4', '/wp-content/uploads/2017/05/Good-Shepherd-2016-Annual-Report.pdf');
+             $text_4	= get_theme_mod('custom_fp_text_4', 'Annual Report 2016');
              $icon_4	= get_theme_mod('custom_fp_icon_4', 'fa-file-text-o');
 ?>
 
@@ -96,7 +100,7 @@
                      <div class="columns small-12">
                          <h3>
                              <i class="fa <?php echo $icon_4 ?>"></i>
-                             <a href="<?php echo $link_4; ?>"><?php echo $text_4 ?></a>
+                             <a target="_blank" href="<?php echo $link_4; ?>"><?php echo $text_4 ?></a>
                          </h3>
                      </div>
                  </div>

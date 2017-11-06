@@ -20,11 +20,13 @@
 
 
 // Third-party libraries
-@import 'font-awesome';
-@import 'motion-ui';
+@import '../../assets/components/font-awesome/scss/font-awesome';
+@import '../../assets/components/motion-ui/src/motion-ui';
+
 
 // Foundation global styles
 @include foundation-global-styles;
+
 
 // Individual foundation components
 @include foundation-grid;
@@ -82,6 +84,7 @@
 @import "modules/footer";
 @import "modules/sidebar";
 @import "modules/editor-style";
+@import "modules/breadcrumbs";
 
 // Components
 @import "components/buttons";
@@ -92,6 +95,7 @@
 @import "components/header";
 @import "components/slider";
 @import "components/section";
+
 
 @import "components/articles";
 
