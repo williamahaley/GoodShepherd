@@ -17,7 +17,7 @@ get_header(); ?>
     <section class="title-header">
         <header>
 	   <?php if ( count($parents) > 0 ): ?>
-		<nav aria-label="Breadcrumb Menu" role="navigation">
+		<nav aria-label="Breadcrumb Menu" role="navigation" class="is-hidden">
 			<ul class="breadcrumbs">
 				<?php foreach ( $parents as $parent ): ?>
 					<li><a href="<?php echo get_page_link($parent); ?>"><?php echo get_the_title($parent); ?></a></li>
