@@ -1,0 +1,20 @@
+{
+  "uploadOnSave": true,
+  "useAtomicWrites": true,
+  "deleteLocal": false,
+  "hostname": "45.55.223.117",
+  "port": "22",
+  "target": "/var/themes/GoodShepherd/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**",
+    "base/**",
+    ".idea/**"
+  ],
+  "username": "root",
+  "keyfile": "C:\\Users\\Will\\Projects\\GoodShepherd\\GoodShepherd",
+  "watch": [
+    "/assets/stylesheets/foundation.css"
+  ],
+  "transport": "scp"
+}

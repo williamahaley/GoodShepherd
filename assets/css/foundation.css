@@ -2253,6 +2253,7 @@ html {
 
 /**
    * Remove default margin.
+>>>>>>> a39f783eebe82c6e3fc9c9e73c0b57a34c794a7c
    */
 body {
   margin: 0; }
@@ -2576,6 +2577,7 @@ textarea {
 /**
    * Don't inherit the `font-weight` (applied by a rule above).
    * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+>>>>>>> a39f783eebe82c6e3fc9c9e73c0b57a34c794a7c
    */
 optgroup {
   font-weight: bold; }
