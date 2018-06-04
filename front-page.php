@@ -51,8 +51,8 @@
              $text_3	= get_theme_mod('custom_fp_text_3', 'Online Donations');
              $icon_3	= get_theme_mod('custom_fp_icon_3', 'fa-heart');
 
-             $link_4	= get_theme_mod('custom_fp_link_4', '/wp-content/uploads/2017/05/Good-Shepherd-2016-Annual-Report.pdf');
-             $text_4	= get_theme_mod('custom_fp_text_4', 'Annual Report 2016');
+             $link_4	= get_theme_mod('custom_fp_link_4', '/ar');
+             $text_4	= get_theme_mod('custom_fp_text_4', 'Annual Report 2017');
              $icon_4	= get_theme_mod('custom_fp_icon_4', 'fa-file-text-o');
 ?>
 

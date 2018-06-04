@@ -25,10 +25,26 @@ if ( ! function_exists('goodshepherd_post_type') ){
             )
         );
 
-   }
+         register_post_type( 'rector',
+            array(
+                'labels' => array(
+                    'name' => __( 'Rector' ),
+                    'singular_name' => __( 'Rector' )
+                ),
+                'public' => true,
+                'has_archive' => true,
+                'hierarchical' => 'true',
+                #'supports' => array(  'page-attributes' => 'true' ),
+                'show_in_nav_menus' => true,
+                'capability_type'    => 'post',
+            )
+        );
+
+  }
 
 }
 
 
 
 add_action( 'init', 'goodshepherd_post_type');
+

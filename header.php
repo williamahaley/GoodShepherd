@@ -41,7 +41,7 @@
 	<body <?php body_class(); ?>>
 	<?php do_action( 'foundationpress_after_body' ); ?>
 
-	<div class="hide-for-small-only" style="position:absolute;width:100%;">
+	<!-- div class="hide-for-small-only" style="position:absolute;width:100%;">
 		<div class="callout text-center warning" data-closable="slide-out-right" style="padding: 0 1rem;border:none;">
   			<h5>Welcome to our new site!</h5>
   			<p>We're still working on all the details, so please keep checking back as we dot all of our i's and cross our t's.</p>
@@ -49,7 +49,7 @@
     <span aria-hidden="true">&times;</span>
   </button>
 		</div>
-	</div>
+	</div-->
 
 	<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
 	<div class="off-canvas-wrapper">
@@ -76,7 +76,7 @@
 			<div class="row hide-for-small-only">
 				<div class="columns text-center">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<img src="<?php echo get_template_directory_uri('/') ?>/assets/images/seal_sm.png" />
+					<img src="<?php echo get_template_directory_uri('/') ?>/assets/images/seal_sm.png?v=1.0.1" />
 				</a>
 				</div>
 				<div class="columns centered text-center">
